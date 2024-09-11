@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
-const axios = axios.create({
-  baseURL: 'https://dummyjson.com',
+const axios1 = axios.create({
+  baseURL: "https://dummyjson.com",
 });
 
-export default axios;
+export default axios1;
