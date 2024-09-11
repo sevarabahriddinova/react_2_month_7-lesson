@@ -1,1 +1,52 @@
  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.home{
+    max-width: 1200px;
+    width: 100%;
+    margin:auto
+    
+}
+.products{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+.product-wrapper{
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 20px;
+    gap: 16px;
+}
+.product-list{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.product-img{
+    
+    object-fit: cover;    
+}
+button{
+    width: 200px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px;
+    border: none;
+}
+ 
